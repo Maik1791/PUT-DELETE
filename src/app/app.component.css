@@ -1,0 +1,156 @@
+body {
+  background-color: #1a1a2e; /* Fondo oscuro */
+  color: #fff; /* Texto blanco para contraste */
+  font-family: 'Arial', sans-serif;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-size: 28px;
+  color: #263f5c; 
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+form {
+  background-color: #146551; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #ffffff; /* Color destacado para las etiquetas */
+}
+
+input {
+  background-color: #ffffff; /* Fondo de los inputs oscuro */
+  border: none;
+  color: #000000;
+  padding: 7px;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); /* Sombra suave */
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #ffffff; /* Borde destacado en focus */
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(45deg, #265C4B, #007566); /* Gradiente en los botones */
+  color: white;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #007566, #265C4B); /* Gradiente inverso en hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* User List Styles */
+.list-group {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  background-color: #146551; /* Fondo para los elementos de la lista */
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 21px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Sombra pronunciada */
+}
+
+.list-group-item strong {
+  color: #ffffff; /* Color destacado para los nombres */
+  font-size: 18px;
+}
+
+.card {
+  background-color: #ffffff; /* Fondo para las cards */
+  padding: px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(252, 252, 252, 0.5);
+}
+
+/* Delete and Modify Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #0279e7, #021569); /* Gradiente para el botón primario */
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0279e7, #021569); /* Gradiente inverso en hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.btn-warning {
+  background: linear-gradient(45deg, #ffcc00, #ff8c00); /* Amarillo */
+  border: none;
+  color: white;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(45deg, #e3a008, #ffc107); /* Amarillo oscuro en hover */
+}
+
+.btn-danger {
+  background: linear-gradient(45deg, #e94560, #ba1b2a); /* Rojo */
+  border: none;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: linear-gradient(45deg, #ba1b2a, #e94560); /* Rojo oscuro en hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .list-group-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
